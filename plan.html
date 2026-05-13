@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="omid.css"> 
+</head>
+<body>
+
+<div id="wrap">
+
+<div class="section one">
+
+<div class="item">
+<h2 class="two_show">Week 1</h2>
+<ul class="two_list">
+    <ul style="list-style-type:disc">
+ 	<li> Lecture:  </li>
+	<li> Tutorial:  </li>
+	<li> Quiz 1:  </li>
+    </ul>
+</ul>
+</div>
+
+<div class="item">
+<h2 class="two_show">Week 2</h2>
+<ul class="two_list">
+    <ul style="list-style-type:disc">
+ 	<li> Lectures:  </li>
+	<li> Tutorials:  </li>
+	<li> Quiz 2:  </li>
+    </ul>
+</ul>
+</div>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+/* omid.js */
+
+$('.three_list, .four_list, .five_list').hide();
+
+$('.one_show').click(function(){
+$('.one_list').slideToggle();
+})
+
+$('.three_show').click(function(){
+$('.three_list').slideToggle();
+})
+
+$('.four_show').click(function(){
+$('.four_list').slideToggle();
+})
+
+$('.five_show').click(function(){
+$('.five_list').slideToggle();
+})
+
+</script>
+</body>
+</html>
