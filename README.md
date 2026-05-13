@@ -1,1 +1,1 @@
-# STA257H1F_Summer2026
+Welcome to STA257H1F. I will share course material and information here.
